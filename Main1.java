@@ -1,3 +1,4 @@
+public class Main1{
 interface Signal {
     void transmit(); 
 }
@@ -24,4 +25,5 @@ public class Main1 {
         discrete.transmit();
         continuous.transmit();
     }
+}
 }

@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.List;
 
+public class Main2{
+
 class DiscreteSignal {
     private List<Double> signalValues;
 
@@ -50,7 +52,7 @@ class Radar {
     }
 }
 
-public class Main2 {
+public class Main3 {
     public static void main(String[] args) {
         DiscreteSignal signal = new DiscreteSignal(Arrays.asList(1.0, 2.0, 3.0, 4.0));
         signal.printSignal();
@@ -62,3 +64,4 @@ public class Main2 {
     }
 }
 
+}

@@ -1,8 +1,7 @@
 import main2;
+import Signal;
 public class Main1{
-interface Signal {
-    void transmit(); 
-}
+
 
 class DiscreteSignal implements Signal {
     @Override

@@ -1,3 +1,4 @@
+import main2;
 public class Main1{
 interface Signal {
     void transmit(); 

@@ -1,1 +1,3 @@
-hello
+BÀI TẬP LỚN OOP
+XÂY DỰNG ỨNG DỤNG QUẢN LÝ BÁN HÀNG
+1) 

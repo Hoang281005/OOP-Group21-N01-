@@ -1,7 +1,5 @@
 # BÀI TẬP LỚN OOP
 # XÂY DỰNG ỨNG DỤNG QUẢN LÝ BÁN HÀNG
-# BÀI TẬP LỚN OOP
-# XÂY DỰNG ỨNG DỤNG QUẢN LÝ BÁN HÀNG
 # 1. Chức năng quản lý sản phẩm (mã, tên , giá ...)
 -  Thêm sản phẩm.
 -  Sửa sản phẩm.

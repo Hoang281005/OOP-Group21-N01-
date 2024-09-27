@@ -30,7 +30,7 @@ Dự án này là một hệ thống quản lý bán hàng, giúp tối ưu hóa
 ![Screenshot (6)](https://github.com/user-attachments/assets/32ffdffa-756e-49a7-9807-bf4d7db7919b)
 ## Giao Diện Đầu Tiên Của Dự Án
 ## GitHub Pages Dự Án
-[Truy cập dự án tại đây](
+[Truy cập dự án tại đây](https://github.com/Hoang281005/OOP-Group21-N01-/tree/finalproject)
 
 
 

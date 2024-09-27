@@ -6,20 +6,20 @@ Dự án này là một hệ thống quản lý bán hàng, giúp tối ưu hóa
 - **Nguyễn Tuấn Thành**: Phát triển phần mềm toàn diện.
 - **Nguyễn Huy Hoàng**: Phát triển phần mềm toàn diện.
 ## 1. Các Chức Năng Chính
-### 1.1 Chức năng quản lý sản phẩm (mã, tên , giá ...)
+### 1.1. Chức năng quản lý sản phẩm (mã, tên , giá ...)
 -  Thêm sản phẩm.
 -  Sửa sản phẩm.
 -  Xóa sản phẩm.
-### 1.2 Chức năng quản lý đơn hàng
+### 1.2. Chức năng quản lý đơn hàng
 - Thêm, sửa, xóa đơn hàng
 - Mỗi đơn hàng có thể chứa nhiều sản phẩm
-### 1.3 liệt kê các đơn hàng trong hệ thống
+### 1.3. liệt kê các đơn hàng trong hệ thống
 ...
 ## 2. UML Dự Án
-## 2.1 Sơ đồ cấu trúc (Structural diagram)
+## 2.1. Sơ đồ cấu trúc (Structural diagram)
 ### Component Diagram
 ![Ảnh chụp màn hình 2024-09-27 165911](https://github.com/user-attachments/assets/64f59a5e-135c-48b2-a860-43a0286975dd)
-## 2.2 Lưu đồ thuật toán (Behavioural Diagram)
+## 2.2. Lưu đồ thuật toán (Behavioural Diagram)
 ### Activity Diagram: Lưu đồ hoạt động chính
 ![Ảnh chụp màn hình 2024-09-27 165938](https://github.com/user-attachments/assets/c23843d1-1a76-433a-9530-0e398e7f71dc)
 ### Product management
@@ -30,7 +30,8 @@ Dự án này là một hệ thống quản lý bán hàng, giúp tối ưu hóa
 ![Screenshot (6)](https://github.com/user-attachments/assets/32ffdffa-756e-49a7-9807-bf4d7db7919b)
 ## Giao Diện Đầu Tiên Của Dự Án
 ## GitHub Pages Dự Án
-[Truy cập dự án tại đây](https://github.com/Hoang281005/OOP-Group21-N01-/blob/finalproject/README.md)
+[Truy cập dự án tại đây](
+
 
 
 

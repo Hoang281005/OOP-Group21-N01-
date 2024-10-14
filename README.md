@@ -29,8 +29,14 @@ Dự án này là một hệ thống quản lý bán hàng, giúp tối ưu hóa
 ### Order List
 ![Screenshot (6)](https://github.com/user-attachments/assets/32ffdffa-756e-49a7-9807-bf4d7db7919b)
 ## Giao Diện Đầu Tiên Của Dự Án
+![z5930385908021_3c40c74dbfd56989c15673fc2d0d9101](https://github.com/user-attachments/assets/88331ed4-4b25-4029-86e2-b735ba1e97a9)
+### Đăng nhập:
+![z5930385908037_1e576cdab07f764341633b583c24dc60](https://github.com/user-attachments/assets/b395a19a-849d-4f72-99f0-541e6e48a3ae)
+### Login with JDBC: 
+![z5930385908059_d0d00d8b54a4dc2e5b02cfbfa689a4b5](https://github.com/user-attachments/assets/2b9af3c4-a861-4178-ba59-8208efa6a96d)
 ## GitHub Pages Dự Án
 [Truy cập dự án tại đây](https://github.com/Hoang281005/OOP-Group21-N01-/tree/finalproject)
+
 
 
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.controller.LoginController"
+      alignment="CENTER" spacing="15" style="-fx-background-color: white; -fx-padding: 20;">
+    <Label text="Đăng Nhập" style="-fx-font-size: 20px; -fx-text-fill: green;"/>
+
+    <TextField fx:id="usernameField" promptText="Tài khoản" style="-fx-pref-width: 250px;"/>
+    <PasswordField fx:id="passwordField" promptText="Mật khẩu" style="-fx-pref-width: 250px;"/>
+
+    <Button text="Đăng nhập" onAction="#handleLogin" style="-fx-background-color: green; -fx-text-fill: white; -fx-font-weight: bold;"/>
+</VBox>
+

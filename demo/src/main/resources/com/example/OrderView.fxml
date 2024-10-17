@@ -1,0 +1,29 @@
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.controller.OrderController"
+      alignment="CENTER" spacing="10">
+    <Label text="Order Management" style="-fx-font-size: 20px;"/>
+
+    <HBox spacing="10">
+        <Label text="Order ID:"/>
+        <TextField fx:id="orderIDField"/>
+    </HBox>
+    <HBox spacing="10">
+        <Label text="Product List:"/>
+        <ComboBox fx:id="productComboBox"/>
+    </HBox>
+    <HBox spacing="10">
+        <Label text="Quantity:"/>
+        <TextField fx:id="quantityField"/>
+    </HBox>
+
+    <TableView fx:id="orderTable">
+        <columns>
+            <TableColumn fx:id="colOrderID" text="Order ID"/>
+            <TableColumn fx:id="colProductList" text="Product List"/>
+            <TableColumn fx:id="colTotalPrice" text="Total Price"/>
+        </columns>
+    </TableView>
+
+    <Button text="Add Order" onAction="#handleAddOrder"/>
+</VBox>
+    

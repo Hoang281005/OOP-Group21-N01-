@@ -1,0 +1,28 @@
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.controller.ProductController"
+      alignment="CENTER" spacing="10">
+    <Label text="Product Management" style="-fx-font-size: 20px;"/>
+    
+    <HBox spacing="10">
+        <Label text="Product Code:"/>
+        <TextField fx:id="productCodeField"/>
+    </HBox>
+    <HBox spacing="10">
+        <Label text="Product Name:"/>
+        <TextField fx:id="productNameField"/>
+    </HBox>
+    <HBox spacing="10">
+        <Label text="Price:"/>
+        <TextField fx:id="priceField"/>
+    </HBox>
+    
+    <TableView fx:id="productTable">
+        <columns>
+            <TableColumn fx:id="colProductCode" text="Product Code"/>
+            <TableColumn fx:id="colProductName" text="Product Name"/>
+            <TableColumn fx:id="colPrice" text="Price"/>
+        </columns>
+    </TableView>
+    
+    <Button text="Add Product" onAction="#handleAddProduct"/>
+</VBox>

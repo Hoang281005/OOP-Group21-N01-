@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.controller.ProductManagementController" spacing="10" padding="20">
+
+    <Label text="Product Management" style="-fx-font-size: 18px;" />
+    
+    <TableView fx:id="productTable">
+        <TableColumn fx:id="colId" text="ID" />
+        <TableColumn fx:id="colName" text="Name" />
+        <TableColumn fx:id="colPrice" text="Price" />
+    </TableView>
+
+    <!-- Form for product management -->
+    <TextField fx:id="txtId" promptText="Product ID" />
+    <TextField fx:id="txtName" promptText="Product Name" />
+    <TextField fx:id="txtPrice" promptText="Product Price" />
+
+    <!-- Buttons to manage products -->
+    <HBox spacing="10">
+        <Button text="Add Product" onAction="#handleAddProduct"/>
+        <Button text="Edit Product" onAction="#handleEditProduct"/>
+        <Button text="Delete Product" onAction="#handleDeleteProduct"/>
+    </HBox>
+</VBox>

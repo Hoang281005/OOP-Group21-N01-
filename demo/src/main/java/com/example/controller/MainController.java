@@ -35,4 +35,18 @@ public class MainController {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    public void showOrderList() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/OrderListView.fxml"));
+            Scene scene = new Scene(loader.load());
+            Stage stage = new Stage();
+            stage.setScene(scene);
+            stage.setTitle("Order List");
+            stage.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

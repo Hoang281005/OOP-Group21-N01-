@@ -1,42 +1,54 @@
 package com.example.model;
 
-import javafx.beans.property.SimpleDoubleProperty;
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.*;
 
 public class Order {
-    private final SimpleIntegerProperty orderID;
-    private final SimpleStringProperty productList;
-    private final SimpleDoubleProperty totalPrice;
 
+    private IntegerProperty orderID;
+    private StringProperty productList;
+    private DoubleProperty totalPrice;
+
+    // Constructor with parameters
     public Order(int orderID, String productList, double totalPrice) {
         this.orderID = new SimpleIntegerProperty(orderID);
         this.productList = new SimpleStringProperty(productList);
         this.totalPrice = new SimpleDoubleProperty(totalPrice);
     }
 
+    // Getters and setters for orderID, productList, and totalPrice
     public int getOrderID() {
         return orderID.get();
+    }
+
+    public void setOrderID(int orderID) {
+        this.orderID.set(orderID);
+    }
+
+    public IntegerProperty orderIDProperty() {
+        return orderID;
     }
 
     public String getProductList() {
         return productList.get();
     }
 
+    public void setProductList(String productList) {
+        this.productList.set(productList);
+    }
+
+    public StringProperty productListProperty() {
+        return productList;
+    }
+
     public double getTotalPrice() {
         return totalPrice.get();
     }
 
-    // Property methods for data binding
-    public SimpleIntegerProperty orderIDProperty() {
-        return orderID;
+    public void setTotalPrice(double totalPrice) {
+        this.totalPrice.set(totalPrice);
     }
 
-    public SimpleStringProperty productListProperty() {
-        return productList;
-    }
-
-    public SimpleDoubleProperty totalPriceProperty() {
+    public DoubleProperty totalPriceProperty() {
         return totalPrice;
     }
 }

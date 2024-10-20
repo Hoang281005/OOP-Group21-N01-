@@ -11,5 +11,6 @@
 
     <Button text="Manage Products" onAction="#openProductView" />
     <Button text="Manage Orders" onAction="#openOrderView" />
+    <Button text="Order List" onAction="#showOrderList"/>
 </VBox>
 

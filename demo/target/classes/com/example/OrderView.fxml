@@ -1,29 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
 <VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.controller.OrderController"
-      alignment="CENTER" spacing="10">
-    <Label text="Order Management" style="-fx-font-size: 20px;"/>
+      alignment="CENTER" spacing="10" >
 
+    <!-- Title Label -->
+    <Label text="Order Management" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    
+    <!-- Input Fields for Order Information -->
     <HBox spacing="10">
         <Label text="Order ID:"/>
-        <TextField fx:id="orderIDField"/>
+        <TextField fx:id="orderIDField" promptText="Enter order ID"/>
     </HBox>
+    
     <HBox spacing="10">
         <Label text="Product List:"/>
-        <ComboBox fx:id="productComboBox"/>
+        <ComboBox fx:id="productComboBox" promptText="Select product"/>
     </HBox>
+    
     <HBox spacing="10">
         <Label text="Quantity:"/>
-        <TextField fx:id="quantityField"/>
+        <TextField fx:id="quantityField" promptText="Enter quantity"/>
     </HBox>
 
-    <TableView fx:id="orderTable">
+    <!-- Table to Display Orders -->
+    <TableView fx:id="orderTable" prefHeight="200" prefWidth="400">
         <columns>
-            <TableColumn fx:id="colOrderID" text="Order ID"/>
-            <TableColumn fx:id="colProductList" text="Product List"/>
-            <TableColumn fx:id="colTotalPrice" text="Total Price"/>
+            <!-- Order ID Column -->
+            <TableColumn fx:id="colOrderID" text="Order ID" prefWidth="100"/>
+            
+            <!-- Product List Column -->
+            <TableColumn fx:id="colProductList" text="Product List" prefWidth="200"/>
+            
+            <!-- Total Price Column -->
+            <TableColumn fx:id="colTotalPrice" text="Total Price" prefWidth="100"/>
         </columns>
     </TableView>
-
-    <Button text="Add Order" onAction="#handleAddOrder"/>
-</VBox>
     
+    <!-- Buttons for Order Actions -->
+    <HBox spacing="10">
+        <Button text="Add Order" onAction="#handleAddOrder"/>
+        <Button text="Edit Order" onAction="#handleEditOrder"/>
+        <Button text="Delete Order" onAction="#handleDeleteOrder"/>
+    </HBox>
+</VBox>

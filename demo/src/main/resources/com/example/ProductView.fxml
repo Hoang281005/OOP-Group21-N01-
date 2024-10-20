@@ -1,28 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
 <VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.controller.ProductController"
-      alignment="CENTER" spacing="10">
-    <Label text="Product Management" style="-fx-font-size: 20px;"/>
+      alignment="CENTER" spacing="10" >
+
+    <!-- Title Label -->
+    <Label text="Product Management" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
     
+    <!-- Input Fields for Product Information -->
     <HBox spacing="10">
         <Label text="Product Code:"/>
-        <TextField fx:id="productCodeField"/>
-    </HBox>
-    <HBox spacing="10">
-        <Label text="Product Name:"/>
-        <TextField fx:id="productNameField"/>
-    </HBox>
-    <HBox spacing="10">
-        <Label text="Price:"/>
-        <TextField fx:id="priceField"/>
+        <TextField fx:id="productCodeField" promptText="Enter product code"/>
     </HBox>
     
-    <TableView fx:id="productTable">
+    <HBox spacing="10">
+        <Label text="Product Name:"/>
+        <TextField fx:id="productNameField" promptText="Enter product name"/>
+    </HBox>
+    
+    <HBox spacing="10">
+        <Label text="Price:"/>
+        <TextField fx:id="priceField" promptText="Enter price"/>
+    </HBox>
+
+    <!-- Table to Display Products -->
+    <TableView fx:id="productTable" prefHeight="200" prefWidth="400">
         <columns>
-            <TableColumn fx:id="colProductCode" text="Product Code"/>
-            <TableColumn fx:id="colProductName" text="Product Name"/>
-            <TableColumn fx:id="colPrice" text="Price"/>
+            <!-- Product Code Column -->
+            <TableColumn fx:id="colProductCode" text="Product Code" prefWidth="100"/>
+            
+            <!-- Product Name Column -->
+            <TableColumn fx:id="colProductName" text="Product Name" prefWidth="200"/>
+            
+            <!-- Price Column -->
+            <TableColumn fx:id="colPrice" text="Price" prefWidth="100"/>
         </columns>
     </TableView>
     
-    <Button text="Add Product" onAction="#handleAddProduct"/>
+    <!-- Buttons for Product Actions -->
+    <HBox spacing="10">
+        <Button text="Add Product" onAction="#handleAddProduct"/>
+        <Button text="Edit Product" onAction="#handleEditProduct"/>
+        <Button text="Delete Product" onAction="#handleDeleteProduct"/>
+    </HBox>
 </VBox>

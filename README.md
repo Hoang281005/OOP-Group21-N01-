@@ -37,7 +37,7 @@ Dự án này là một hệ thống quản lý bán hàng, giúp tối ưu hóa
 ### Login with JDBC: 
 ![z5930385908059_d0d00d8b54a4dc2e5b02cfbfa689a4b5](https://github.com/user-attachments/assets/2b9af3c4-a861-4178-ba59-8208efa6a96d)
 ## DEMO
-https://youtu.be/lO7PH-JE7uk
+[DEMO](https://youtu.be/lO7PH-JE7uk)
 ## GitHub Pages Dự Án
 [Truy cập dự án tại đây](https://github.com/Hoang281005/OOP-Group21-N01-/tree/finalproject)
 

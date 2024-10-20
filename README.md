@@ -28,6 +28,8 @@ Dự án này là một hệ thống quản lý bán hàng, giúp tối ưu hóa
 ![Screenshot (5)](https://github.com/user-attachments/assets/b245b6fb-f76b-4a41-8cc9-a618f1763a55)
 ### Order List
 ![Screenshot (6)](https://github.com/user-attachments/assets/32ffdffa-756e-49a7-9807-bf4d7db7919b)
+### Mô hình quan hệ
+![Screenshot 2024-10-20 140841](https://github.com/user-attachments/assets/749a7b19-3b3a-4719-ab15-696300e7ad19)
 ## Giao Diện Đầu Tiên Của Dự Án
 ![z5930385908021_3c40c74dbfd56989c15673fc2d0d9101](https://github.com/user-attachments/assets/88331ed4-4b25-4029-86e2-b735ba1e97a9)
 ### Đăng nhập:
